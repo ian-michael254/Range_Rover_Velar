@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tac+One&display=swap');
+*{
+    box-sizing:content-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    background-color:#14151a;
+    overflow:hidden;
+}
+#logo-icon{
+    width:100px;
+}
+
+header{
+    background-color:#14151a;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+}
+nav>a{
+    padding:20px;
+    margin:10px;
+    color:#fff;
+    text-decoration:none;
+    display:inline-block;
+    font-size:20px;
+    font-weight:500;
+    text-transform:capitalize
+    
+}
+nav>a:hover{
+    border-bottom:5px solid #3d4d69;
+    transition: all 0.5s  linear 0.5s;
+    
+}
+nav>a.active{
+    border-bottom:5px solid #3d4d69;
+    transition: all 0.5s  linear 0.5s;
+
+}
+
+
+#main-container h1{
+    font-size:200px;
+    color:rgba(255, 255, 255, 0.2);
+    position:relative;
+    left:350px;
+    top:0;
+    letter-spacing: 10vw;
+    font-family: "Tac One", sans-serif;
+    font-style: oblique;
+    z-index:3;
+   
+}
+.hero{
+    width:100%;
+    min-width:800px;
+    position:relative;
+    bottom:330px;
+    left:180px;
+    z-index:5;
+    
+}
+.description{
+    
+    width:50%;
+    max-width:500px;
+    padding:30px;
+    position:relative;
+    bottom:1100px;
+    left:330px;
+    text-align:left;
+    color:rgba(255, 255, 255, 0.7);
+}
+.description p{
+    font-size:16px;
+    padding:3px;
+    margin-top:10px;
+} 
+.description h3{
+    font-size:30px;
+}
+button{
+    padding:10px;
+    margin:10px auto 10px auto;
+    width:100px;
+    border:2px solid;
+    border-radius:5px;
+    background-color:inherit;
+    color:#fff;
+    cursor:pointer;
+    font-size:16px;
+    
+}
